@@ -19,7 +19,13 @@ header,footer {
 article {
     padding: 20px;
 }
+
 img {
     display: block;
     margin: auto;
 }
+
+.site-title {
+    color: #343238;
+}
+
