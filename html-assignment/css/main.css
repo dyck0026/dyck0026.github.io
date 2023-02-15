@@ -1,11 +1,16 @@
 body {
     font-family: sans-serif;
-}
-body {
+    color: #45424A;
     background-color: #e5989b;
-    padding: 75px;
 }
-div.wrapper {
+
+.wrapper {
+    width: 80%;
+    margin: auto;
     background-color: #ffcdb2;
-    padding: 20px;
+}
+
+header,footer {
+    background-color: #B5838D;
+    padding: 10px;
 }
