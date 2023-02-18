@@ -58,6 +58,7 @@ body {
     background-color: #AAD4CF;
 }
 
+/* positioning the main block */
 .wrapper {
     width: auto;
     margin-bottom: 15px;
@@ -66,3 +67,7 @@ body {
     background-color: #D4E9E7;
 }
 
+img#ls1 {
+    width: 100%;
+    height: auto;
+}
