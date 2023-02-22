@@ -84,6 +84,9 @@ img#ls1 {
 /* making the second image smaller and not crammed in the corner */
 img#ls2 {
     width: 125px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
 }
 
 
@@ -101,4 +104,9 @@ h2 {
 h3 {
     font-size: 1.25rem;
     font-weight: 500;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
