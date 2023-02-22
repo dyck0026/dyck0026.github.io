@@ -49,6 +49,8 @@ table {
 /* DONE */
 
 
+
+
 /* main size for reference later */
 html {
     font-size: 16px;
@@ -74,9 +76,13 @@ img#ls1 {
     height: auto;
 }
 
-header h1{
-    position: absolute;
-    left:50%;
-    transform: translate(-50%, 0);
-    top: 200px;
+/* had to add another div to make sure the responsive image wouldn't be padded */
+.container {
+    padding: 8px;
 }
+
+/* making the second image smaller and not crammed in the corner */
+img#ls2 {
+    width: 125px;
+}
+
