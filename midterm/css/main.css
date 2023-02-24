@@ -90,7 +90,7 @@ img#ls2 {
     float: left;
 }
 
-
+/* resizing all the headings along a curve, and making them responsive to the master key */
 h1 {
     font-size: 1.95rem;
     font-weight: 600;
@@ -123,7 +123,7 @@ ul {
     border: 1px solid black;
     padding: 10px;
 }
-
+/* making the text inputs fit into the border, and removing the input borders */
 input.long {
     width: 100%;
     box-sizing: border-box;
