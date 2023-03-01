@@ -51,6 +51,10 @@ table {
 
 
 
+* {
+    box-sizing: border-box;
+}
+
 /* main size for reference later */
 html {
     font-size: 16px;
@@ -76,6 +80,38 @@ img#ls1 {
     height: auto;
 }
 
+div.layers {
+    width: 100%;
+    height:max-content
+}
+
+/* fiddling with the nav spacing and borders */
+nav a{
+    font-size: 1.56rem;
+    font-weight: 500;
+    text-decoration: none;
+    width: 33.333333%;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .middle {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color: black;
+}
+
 /* had to add another div to make sure the responsive image wouldn't be padded */
 .container {
     padding: 8px;
@@ -90,8 +126,13 @@ img#ls2 {
     float: left;
 }
 
+.clearhere {
+    clear: both;
+}
+
 /* resizing all the headings along a curve, and making them responsive to the master key */
 h1 {
+    color: white;
     font-size: 1.95rem;
     font-weight: 600;
     text-align: center;
@@ -109,11 +150,6 @@ h3 {
     margin-bottom: 10px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-}
-
 ul {
     list-style: disc;
     margin-left: 30px;
@@ -126,13 +162,11 @@ ul {
 /* making the text inputs fit into the border, and removing the input borders */
 input.long {
     width: 100%;
-    box-sizing: border-box;
     border-style: none;
 }
 
 textarea {
     width: 100%;
-    box-sizing: border-box;
     resize: none;
     height: 60px;
     border-style: none;
