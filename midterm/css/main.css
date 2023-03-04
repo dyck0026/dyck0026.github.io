@@ -100,6 +100,7 @@ nav a{
 nav {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 nav .middle {
@@ -123,9 +124,9 @@ a:visited {
 /* making the second image smaller and not crammed in the corner */
 img#ls2 {
     width: 135px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-right: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
     float: left;
 }
 
@@ -151,6 +152,10 @@ h3 {
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+article p {
+    margin-top: 10px;
 }
 
 ul {
