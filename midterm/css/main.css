@@ -95,6 +95,8 @@ nav a{
     text-decoration: none;
     width: 33.333333%;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 nav {
@@ -167,6 +169,7 @@ ul {
     border: 1px solid black;
     padding: 10px;
 }
+
 /* making the text inputs fit into the border, and removing the input borders */
 input.long {
     width: 100%;
@@ -183,6 +186,15 @@ textarea {
 input, textarea {
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+/* removing the button background and changing the border */
+button {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 footer {
