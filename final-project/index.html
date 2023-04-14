@@ -15,14 +15,12 @@
 </head>
 <body>
 
-    <!-- main wrapper to center content -->
-    <div class="wrapper">
-
-        <!-- header with logo, nav, and search (mobile: vertical, desktop: horizontal) -->
-        <header>
-            <img src="images/logo.png" alt="logo of three stars">
+    <!-- forgot about the header bleed -->
+    <header>
+        <div class="wrapper">
+           <div class="wtfbox"><img src="images/logo.png" alt="logo of three stars"></div>
             <nav>
-                <a href="#home">Home</a>
+                <div class="wtfbox"><a href="#home" class="homebox">Home</a></div>
                 <a href="#about-us">About Us</a>
                 <a href="#services">Services</a>
                 <a href="#team">Team</a>
@@ -32,8 +30,15 @@
                 <label for="search"></label>
                 <input id="search" type="text" name="search" placeholder="search">
                 <button type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
-            </form>
-        </header>
+            </form> 
+        </div>
+    </header>
+
+    <!-- main wrapper to center content -->
+    <div class="wrapper">
+
+        <!-- header with logo, nav, and search (mobile: vertical, desktop: horizontal) -->
+        
 
         <!-- going to have to use a parent element for the photo and text on top -->
         <div class="flt1" id="home">

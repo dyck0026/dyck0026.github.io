@@ -48,6 +48,10 @@ table {
 }
 
 
+a:link {
+	text-decoration: none;
+}
+
 /* END */
 
 
@@ -57,5 +61,24 @@ table {
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background-color: #222;
+}
+
+.wrapper {
+	margin: 10px;
+}
+
+nav a {
+	color: #c78c06;
+}
+
+.wtfbox {
+	background-color: #c78c06;
+}
+.wtfbox a {
+	color: #222;
 }
 
