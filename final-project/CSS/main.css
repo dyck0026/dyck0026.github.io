@@ -55,6 +55,9 @@ a:link {
 /* END */
 
 
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -72,12 +75,34 @@ header {
 	margin: 0 1rem;
 }
 
+/* standardizing the headers */
+h1 {
+	font-weight: 900;
+	font-size: 3rem;
+	margin: 1.5rem 0;
+	line-height: 1;
+}
+h2 {
+	font-size: 3rem;
+	font-weight: 900;
+	margin: 1.5rem 0;
+}
+h3 {
+	font-size: 2rem;
+	font-weight: 900;
+	margin: 1rem 0;
+}
+h4 {
+	font-size: 1rem;
+	font-weight: 900;
+	margin: .5rem 0;
+}
+
 nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
 nav a {
 	color: #c78c06;
 	padding: 1.5rem 0;
@@ -95,6 +120,7 @@ nav a {
 	text-align: center;
 }
 
+/* input and button side-by-side */
 .form1 {
 	display: flex;
 }
@@ -111,12 +137,15 @@ nav a {
 	padding: .5rem;
 }
 
+/* putting div on top of the image */
 .himg {
 	width: 100%;
 	height: auto;
+	vertical-align: bottom;
 }
 .fltbox {
-	background-color: rgb(34, 34, 34, 0.7);
+	/* Using RGB to get it translucent */
+	background-color: rgb(34, 34, 34, 0.7); 
 	position: absolute;
 	color: white;
 	top: 0;
@@ -124,12 +153,7 @@ nav a {
 	margin-top: auto;
 	margin-bottom: auto;
 	height: 20rem;
-}
-.fltbox h1 {
-	font-weight: 900;
-	font-size: 3rem;
-	margin: 1.5rem 0;
-	line-height: 1;
+	width: 100%;
 }
 .flt1 {
 	position: relative;
@@ -160,22 +184,21 @@ nav a {
 .about {
 	background-color: #ffe6ac;
 	padding-bottom: 1rem;
-	margin-top: -1.89px;
 }
-.about h2 {
+/* .about h2 {
 	font-size: 3rem;
 	font-weight: 900;
 	margin: 1.5rem 0;
-}
+} */
 .about p {
 	margin: 1rem 0;
 }
 
-.svch2 {
+/* .svch2 {
 	font-size: 3rem;
 	font-weight: 900;
 	margin: 1.5rem 0;
-}
+} */
 .services .svc {
 	background-color:#ffe6ac;
 	padding-bottom: .05rem;
@@ -186,8 +209,6 @@ nav a {
 	height: auto;
 }
 .services .svc h3{
-	font-size: 2rem;
-	font-weight: 900;
 	margin: 1rem;
 }
 .services .svc p,.svcbttn {
@@ -199,7 +220,7 @@ nav a {
 	width: 14rem;
 	text-align: center;
 }
-.svcbttn a:link,a:visited {
+.svcbttn a:link, footer a:visited {
 	color: white;
 }
 
@@ -209,11 +230,11 @@ nav a {
 	object-fit: cover;
 	object-position: center;
 }
-.vision h3 {
+/* .vision h3 {
 	font-size: 2rem;
 	font-weight: 900;
 	margin: 1rem 0;
-}
+} */
 .vision {
 	position: relative;
 }
@@ -237,23 +258,79 @@ nav a {
 	margin-bottom: 1rem;
 }
 
-.teamdiv h2{
+/* .teamdiv h2{
 	font-size: 3rem;
 	font-weight: 900;
 	margin: 1.5rem 0;
-}
+} */
 .team img {
 	width: 100%;
 	height: auto;
+	vertical-align: bottom;
 }
 .team .tmdsc {
 	background-color: #ffe6ac;
+	margin-bottom: 1rem;
+	padding: 1rem;
+}
+.team h3 {
+	padding: 1rem 0;
+	margin: 0;
+}
+.team hr.solid {
+	border-top: 3px solid #c78c06;
 }
 
+.contact #fullname,#email,#msg {
+	width: 100%;
+	height: 2rem;
+	border: 1px round #222;
+}
+.contact #msg {
+	height: 8rem;
+}
+.contact form > * {
+	margin: .5rem;
+	font-weight: 600;
+}
+.contact .sbmtbttn {
+	background-color: #222;
+	border: none;
+	color:#c78c06;
+	font-weight: 600;
+	padding: .25rem;
+}
 
+.contact table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 1rem;
+}
+.contact table {
+	width: 100%;
+	table-layout: fixed;
+}
+.contact th {
+	background-color: #ffe6ac;
+}
 
+.contact .map {
+	width: 100%;
+	height: 35rem;
+	margin-bottom: 1rem;
+}
 
-
+footer {
+	background-color:#222;
+	height: 6rem;
+}
+footer p {
+	color: #c78c06;
+	line-height: 3rem;
+}
+footer a:link, footer a:visited {
+	color:#c78c06;
+}
 
 
 
@@ -283,3 +360,4 @@ nav a {
 		padding: 2rem;
 	}
 }
+@media screen and (min-width: )
