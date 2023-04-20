@@ -185,20 +185,11 @@ nav a {
 	background-color: #ffe6ac;
 	padding-bottom: 1rem;
 }
-/* .about h2 {
-	font-size: 3rem;
-	font-weight: 900;
-	margin: 1.5rem 0;
-} */
 .about p {
 	margin: 1rem 0;
 }
 
-/* .svch2 {
-	font-size: 3rem;
-	font-weight: 900;
-	margin: 1.5rem 0;
-} */
+/* text and bttns seperate from images to keep it from resizing */
 .services .svc {
 	background-color:#ffe6ac;
 	padding-bottom: .05rem;
@@ -220,21 +211,17 @@ nav a {
 	width: 14rem;
 	text-align: center;
 }
-.svcbttn a:link, footer a:visited {
+.svcbttn a:link, .svcbttn a:visited {
 	color: white;
 }
 
+/* trying out cropping with object properties */
 .visimg {
 	width: 100%;
 	height: 18rem;
 	object-fit: cover;
 	object-position: center;
 }
-/* .vision h3 {
-	font-size: 2rem;
-	font-weight: 900;
-	margin: 1rem 0;
-} */
 .vision {
 	position: relative;
 }
@@ -258,11 +245,7 @@ nav a {
 	margin-bottom: 1rem;
 }
 
-/* .teamdiv h2{
-	font-size: 3rem;
-	font-weight: 900;
-	margin: 1.5rem 0;
-} */
+/* needs divider, unsure of colour. It looks weird for some reason */
 .team img {
 	width: 100%;
 	height: auto;
@@ -281,6 +264,7 @@ nav a {
 	border-top: 3px solid #c78c06;
 }
 
+/* sets width, but also changes height a little */
 .contact #fullname,#email,#msg {
 	width: 100%;
 	height: 2rem;
@@ -301,6 +285,7 @@ nav a {
 	padding: .25rem;
 }
 
+/* coloured table header, and cell spacing */
 .contact table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
@@ -320,6 +305,7 @@ nav a {
 	margin-bottom: 1rem;
 }
 
+/* learned to add second 'footer' to commas */
 footer {
 	background-color:#222;
 	height: 6rem;
