@@ -113,11 +113,88 @@ nav a {
 
 .himg {
 	width: 100%;
+	margin-bottom: 0;
 }
 .fltbox {
-	background-color: rgb(34, 34, 34, 0.5);
+	background-color: rgb(34, 34, 34, 0.7);
 	position: absolute;
+	color: white;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 20rem;
+}
+.fltbox h1 {
+	font-weight: 900;
+	font-size: 3rem;
+	margin: 1.5rem 0;
+	line-height: 1;
 }
 .flt1 {
 	position: relative;
+}
+.fltbttn {
+	background-color: #c78c06;
+	padding: 1rem;
+	font-weight: 600;
+	width: 225px;
+	text-align: center;
+}
+.fltbttn a:link {
+	color:#222;
+}
+.fltbttn a:visited {
+	color:#222;
+}
+.fltbox p {
+	margin-bottom: 1rem;
+}
+
+.about img {
+	width: 100%;
+	height: auto;
+	margin-top: 1rem;
+}
+.about {
+	background-color: #ffe6ac;
+	padding-bottom: 1rem;
+}
+.about h2 {
+	font-size: 3rem;
+	font-weight: 900;
+	margin: 1.5rem 0;
+}
+.about p {
+	margin: 1rem 0;
+}
+
+.svch2 {
+	font-size: 3rem;
+	font-weight: 900;
+	margin: 1.5rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 700px) {
+	.fltbox {
+		height: 28rem;
+	}
+	.fltbox h1 {
+		font-size: 4.5rem;
+		line-height: 1.25;
+		margin: 2rem 0;
+	}
+	.fltbttn {
+		padding: 2rem;
+	}
 }
