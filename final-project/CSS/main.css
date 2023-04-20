@@ -113,7 +113,7 @@ nav a {
 
 .himg {
 	width: 100%;
-	margin-bottom: 0;
+	height: auto;
 }
 .fltbox {
 	background-color: rgb(34, 34, 34, 0.7);
@@ -155,10 +155,12 @@ nav a {
 	width: 100%;
 	height: auto;
 	margin-top: 1rem;
+	
 }
 .about {
 	background-color: #ffe6ac;
 	padding-bottom: 1rem;
+	margin-top: -1.89px;
 }
 .about h2 {
 	font-size: 3rem;
@@ -174,7 +176,32 @@ nav a {
 	font-weight: 900;
 	margin: 1.5rem 0;
 }
-
+.services .svc {
+	background-color:#ffe6ac;
+	padding-bottom: .05rem;
+	margin-bottom: 1rem;
+}
+.services .svc img {
+	width: 100%;
+	height: auto;
+}
+.services .svc h3{
+	font-size: 2rem;
+	font-weight: 900;
+	margin: 1rem;
+}
+.services .svc p,.svcbttn {
+	margin: 1rem;
+}
+.svcbttn {
+	background-color:#222;
+	padding: 2rem;
+	width: 13rem;
+	text-align: center;
+}
+.svcbttn a:link,a:visited {
+	color: white;
+}
 
 
 
