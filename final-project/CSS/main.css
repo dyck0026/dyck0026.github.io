@@ -345,20 +345,8 @@ footer a:link, footer a:visited {
 	.fltbttn {
 		padding: 2rem;
 	}
-	.wtfbox {
-		width: 0;
-		padding: 0;
-	}
-	.centerbox {
-		background-color: #c78c06;
-		width: 8rem;
-		padding: 1.5rem;
-	}
-	nav {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-	}
+	
+	
 }
 @media screen and (min-width: 900px) {
 	.wrapper {
@@ -385,4 +373,41 @@ footer a:link, footer a:visited {
 		margin-right: auto;
 		width: 1228px;
 	}
+
+	.wtfbox {
+		width: 0;
+		padding: 0;
+	}
+	.centerbox {
+		background-color: #c78c06;
+		width: 8rem;
+		padding: 1.5rem;
+	}
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.wtfbox {
+		grid-area: logo;
+	}
+	.navlinks {
+		grid-area: navarea;
+	}
+	.form1 {
+		grid-area: formarea;
+	}
+	.dsknav {
+		display: grid; 
+		grid-template-areas:
+		"logo navarea navarea navarea navarea navarea formarea"
+	}
+	.form1 {
+		height: 2.5rem;
+		margin-top: 1.85rem;
+	}
+	.searchbutton {
+		width: 2rem;
+	}
+
 }
