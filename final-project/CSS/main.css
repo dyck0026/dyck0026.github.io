@@ -360,6 +360,12 @@ footer a:link, footer a:visited {
 		font-size: 6rem;
 		margin-top: 5rem;
 	}
+	.about img {
+		float: left;
+		max-width: 50%;
+		height: auto;
+	}
+	
 }
 
 @media screen and (min-width: 1216px) {
@@ -409,5 +415,5 @@ footer a:link, footer a:visited {
 	.searchbutton {
 		width: 2rem;
 	}
-
+	
 }
