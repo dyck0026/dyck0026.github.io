@@ -241,6 +241,9 @@ nav a {
 	border: 1px solid #c78c06;
 	text-align: center;
 }
+.vision a:link, .vision a:visited {
+	color: white;
+}
 .vision p {
 	margin-bottom: 1rem;
 }
@@ -491,5 +494,4 @@ footer a:link, footer a:visited {
 	.searchbutton {
 		width: 2rem;
 	}
-	
 }
