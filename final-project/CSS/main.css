@@ -318,6 +318,12 @@ footer a:link, footer a:visited {
 	color:#c78c06;
 }
 
+.clearclass::after {
+	content: “”;
+	display: block;
+	clear: both;
+}
+
 
 
 
@@ -354,7 +360,6 @@ footer a:link, footer a:visited {
 	}
 	.fltbox {
 		height: 36rem;
-		
 	}
 	.fltbox h1 {
 		font-size: 6rem;
@@ -362,12 +367,79 @@ footer a:link, footer a:visited {
 	}
 	.about img {
 		float: left;
-		max-width: 50%;
+		width: 50%;
 		height: auto;
+		margin: 1.5rem;
+	}
+	.about {
+		overflow: hidden;
+	}
+	.about h2 {
+		padding-top: 3.5%;
 	}
 	
-}
+	.svc1 {
+		grid-area: svc1;
+	}
+	.svc2 {
+		grid-area: svc2;
+	}
+	.svc3 {
+		grid-area: svc3;
+	}
+	.svc4 {
+		grid-area: svc4;
+	}
+	.svc5 {
+		grid-area: svc5;
+	}
+	.services {
+		display: grid;
+		grid-template-areas: 
+		"svc1 svc1 svc1 svc2 svc2 svc2"
+		"svc3 svc3 svc4 svc4 svc5 svc5";
+		grid-gap: 1rem;
+	}
+	.team {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.team img {
+		width: 50%;
+	}
+	.team .tmdsc {
+		width: 50%;
+		margin-bottom: 0;
+	}
+	.teamimg2 {
+		order: 4;
+	}
 
+	#contact .msg {
+		grid-area: msg;
+	}
+	#contact .location {
+		grid-area: map;
+	}
+	#contact .map {
+		height: 20rem;
+	}
+	#contact .hours {
+		grid-area: hours;
+		margin-bottom: 2rem;
+	}
+	#contact {
+		display: grid;
+		grid-template-areas:
+		"msg map"
+		"hours hours";
+		grid-gap: 2rem;
+	}
+
+	footer {
+		clear: both;
+	}
+}
 @media screen and (min-width: 1216px) {
 	.wrapper {
 		margin: 0 auto;
@@ -378,6 +450,13 @@ footer a:link, footer a:visited {
 		margin-left: auto;
 		margin-right: auto;
 		width: 1228px;
+	}
+	.vis {
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2rem;
 	}
 
 	.wtfbox {
