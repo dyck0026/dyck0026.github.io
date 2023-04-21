@@ -312,7 +312,8 @@ footer {
 }
 footer p {
 	color: #c78c06;
-	line-height: 3rem;
+	line-height: 2rem;
+	padding-top: 1rem;
 }
 footer a:link, footer a:visited {
 	color:#c78c06;
@@ -434,10 +435,6 @@ footer a:link, footer a:visited {
 		"msg map"
 		"hours hours";
 		grid-gap: 2rem;
-	}
-
-	footer {
-		clear: both;
 	}
 }
 @media screen and (min-width: 1216px) {
